@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @FNH2022
+- 👀 I’m interested in Machine Learning 
+- 🌱 I’m currently learning Computer Engineering 
+- 📫 How to reach me Discord FNH#3909
