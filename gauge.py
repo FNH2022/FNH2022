@@ -1,15 +1,13 @@
-import argparse
-import cv2
 import os
+import pathlib
+from pycoral.utils import edgetpu
+from pycoral.utils import dataset
+from pycoral.adapters import common
+from pycoral.adapters import classify
+from PIL import Image
 
-from pycoral.adapters.common import input_size
-from pycoral.adapters.detect import get_objects
-from pycoral.utils.dataset import read_label_file
-from pycoral.utils.edgetpu import make_interpreter
-from pycoral.utils.edgetpu import run_inference
 import PIL
 
-from PIL import Image
 
 percent = 70  
 output_file_name = 'new_gauge.png'
